@@ -1,27 +1,26 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Wed Apr 16 16:49:51 CEST 2025 */
+/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
 
 package org.texttechnologylab.annotation;
- 
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
 
 import org.apache.uima.cas.impl.CASImpl;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.impl.TypeSystemImpl;
-import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
 
-import org.apache.uima.jcas.cas.AnnotationBase;
 
 
-/** 
- * Updated by JCasGen Wed Apr 16 16:49:51 CEST 2025
- * XML source: /home/staff_homes/bundan/Code/DUUI/duui-uima/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyTaxons.xml
+
+/**
+ * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
+ * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class GNMetaData extends MetaData {
  
@@ -105,6 +104,18 @@ public class GNMetaData extends MetaData {
     readObject();   
   } 
 
+
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
+  public GNMetaData(JCas jcas, int begin, int end) {
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
   /** 
    * <!-- begin-user-doc -->

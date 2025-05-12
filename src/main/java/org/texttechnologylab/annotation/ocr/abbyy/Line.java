@@ -1,26 +1,26 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Tue Apr 15 18:59:23 CEST 2025 */
+/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
 
 package org.texttechnologylab.annotation.ocr.abbyy;
- 
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
 
 import org.apache.uima.cas.impl.CASImpl;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.impl.TypeSystemImpl;
-import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
 
 
 
-/** 
- * Updated by JCasGen Tue Apr 15 18:59:23 CEST 2025
- * XML source: /nvme/projects/TTLab/UIMATypeSystem/target/jcasgen/typesystem.xml
+
+/** Line of a paragraph.
+ * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
+ * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Line extends StructuralElement {
  
@@ -113,7 +113,7 @@ public class Line extends StructuralElement {
   //*--------------*
   //* Feature: baseline
 
-  /** getter for baseline - gets 
+  /** getter for baseline - gets The distance from the baseline to the top edge of the page, in pixels.
    * @generated
    * @return value of the feature 
    */
@@ -121,7 +121,7 @@ public class Line extends StructuralElement {
     return _getIntValueNc(wrapGetIntCatchException(_FH_baseline));
   }
     
-  /** setter for baseline - sets  
+  /** setter for baseline - sets The distance from the baseline to the top edge of the page, in pixels. 
    * @generated
    * @param v value to set into the feature 
    */
@@ -134,7 +134,7 @@ public class Line extends StructuralElement {
   //*--------------*
   //* Feature: format
 
-  /** getter for format - gets 
+  /** getter for format - gets If present, this line denotes a group of characters with uniform formatting.
    * @generated
    * @return value of the feature 
    */
@@ -142,7 +142,7 @@ public class Line extends StructuralElement {
     return (Format)(_getFeatureValueNc(wrapGetIntCatchException(_FH_format)));
   }
     
-  /** setter for format - sets  
+  /** setter for format - sets If present, this line denotes a group of characters with uniform formatting. 
    * @generated
    * @param v value to set into the feature 
    */
